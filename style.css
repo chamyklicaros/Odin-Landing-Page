@@ -4,6 +4,8 @@ body{
     display:flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    min-height: 100vh;;
+    margin: 0;
 }
 
 
@@ -13,7 +15,50 @@ body{
     background: #1F2937;
 
     justify-content:space-between;
-    align-items: center;
+    padding: 16px;
+ 
+
+    height:300px;
+
+.header-logo{
+    font-size: 24px;
+    color:#F9FAF8;
+    display: flex;
+ 
+
+}
+
+.Header-main-text{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+img {
+    height: 60px;
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+ 
    
 
 
@@ -26,19 +71,12 @@ body{
     color: white;
     align-items: center;
     justify-content: center;
+    height:50px;
 
 }
 
 
-a{
-    text-decoration: none;
-    color: white;
-}
-ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
+
 
 .quote{
     display: flex;
@@ -47,11 +85,80 @@ ul{
     height: 300px;
     background: #E5E7EB;
     color: #1F2937;
-    font-size: 24px;
+    font-size: 36px;
+    flex-wrap: wrap;
+    padding: 16px;
+ 
+
+}
+
+.quote p{
+    margin: 8px;
+    text-align: center;
+    
+}
+
+
+.Random-Information{
+    display: flex;
+    height:300px;
+    justify-content: center;
+    padding: 16px;
+    gap: 16px;
+
+}
+.info-box{
+    width: 200px;
+    height: auto;
+    background: #FFF;
+    border-radius: 25px;
+    border: 2px #3882F6 solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 16px;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    color: #1F2937;
 }
 
 .modal{
-    display:flex;
-    height:300px;
+
+    display: flex;
+    background: #3882F6;
+    width: 300px;
+    height: auto;
+
+   
+
 }
+
+button{
+    background:#FFF solid;
+    color:#3882F6;
+}
+
+
+.Random-Information{
+    display: flex;
+    height:300px;
+    justify-content: center;
+    padding: 16px;
+}
+
 
